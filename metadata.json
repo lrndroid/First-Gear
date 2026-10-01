@@ -1,0 +1,12 @@
+{
+  "name": "Remix TeenDrive Guard - Teen Driver Speed \u0026 Telemetry Monitor",
+  "description": "Automatic teen driving tracker matching live vehicle speed against posted speed limits via Google Roads API, analyzing braking smoothness at signals and intersections, and monitoring accelerometer jerk dynamics.",
+  "requestFramePermissions": [
+    "geolocation",
+    "accelerometer",
+    "gyroscope"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
